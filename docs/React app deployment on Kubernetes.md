@@ -95,7 +95,7 @@ EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
 ~~~
 
-Ele usa uma compilação de vários estágios para criar a imagem do docker. Na primeira etapa, você cria o React APP em uma imagem _node alpine_ e, na segunda etapa, você o implanta em uma imagem nginx-alpiine.
+Ele usa uma compilação de vários estágios para criar a imagem do docker. Na primeira etapa, você cria o React APP em uma imagem _node alpine_ e, na segunda etapa, você o implanta em uma imagem nginx-alpine.
 
 ### Build the docker image
 Para criar a imagem do Docker, execute o seguinte comando no diretório raiz do projeto:
